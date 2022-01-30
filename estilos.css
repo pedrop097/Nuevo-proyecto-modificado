@@ -1,0 +1,86 @@
+
+.container{
+    margin: 20px;
+    padding: 10px;
+}
+
+.altura{
+    margin: 20px;
+}
+.ancho{
+    width: 500px;
+    margin: 0 auto;
+}
+.color{
+    background-color: rgb(216, 216, 216);
+}
+.color2{
+    background-color: black;
+}
+.color3{
+    color: rgb(242, 242, 250);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+
+   }
+.ancho4{
+    width: 30%;
+}
+
+.ancho5{
+    width: 200px;
+    margin: 0 auto
+}
+
+.ancho6{
+    width: 100px;
+    margin: 0 auto
+}
+h1{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+h1:hover{
+    animation: changue-color 4s;
+}
+@keyframes changue-color{
+    30% {
+      color: rgb(156, 147, 147);
+    }
+    30%{
+      transform: scale(1.5);
+      color: rgb(190, 141, 141);
+    }
+    40%{
+      color: rgb(202, 201, 200);
+    }
+  }
+.margin1{
+    margin: 50px;
+}
+h4{
+    display:flex;
+    margin: 30px;
+    justify-content: center;
+}
+.imagenw{
+    width: 50px;
+}
+
+.camion1{
+    width: 200px;
+}
+h2{
+    color: green;
+}
+.camion1:hover{
+    transform:translate(100px);
+    transition:all 1.5s ease;
+}
+.iframeContacto{
+     width: auto;
+     margin: 20px;
+}
