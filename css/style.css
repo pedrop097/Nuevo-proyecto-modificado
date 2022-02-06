@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container-fluid {
+  margin: 20px;
+  padding: 10px; }
+  .container-fluid .color {
+    color: #f2f2fa;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem; }
+
+.nav {
+  margin: 20px; }
+
+.main .color2 {
+  background-color: #d8d8d8; }
+  .main .color2 .ancho {
+    width: 500px;
+    margin: 0 auto; }
+    .main .color2 .ancho .color3 {
+      background-color: black; }
+
+section h1 {
+  margin: 40px;
+  display: flex;
+  justify-content: center; }
+  section h1:hover {
+    background-color: red; }
+    section h1:hover .ancho2 {
+      width: 200px;
+      margin: 0 auto; }
+      section h1:hover .ancho2 .ancho3 {
+        width: 100px;
+        margin: 0 auto; }
+
+.margin1 {
+  margin: 50px; }
+
+h4 {
+  display: flex;
+  margin: 30px;
+  justify-content: center; }
+  h4:hover {
+    transform: scale(1.5);
+    transition: 2s all; }
+
+.imagenw {
+  width: 50px; }
+
+.camion1 {
+  width: 200px; }
+
+h2 {
+  color: green; }
+
+.camion1:hover {
+  transform: translate(100px);
+  transition: all 1.5s ease; }
+
+.iframeContacto {
+  width: auto;
+  margin: 20px; }
+
+.Letra {
+  color: #bd0b0b;
+  font-size: 20px; }
+
+.promociones2 {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  margin: 50px; }
+
+.classPromociones {
+  font-size: 30px;
+  width: 600px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: solid whitesmoke;
+  align-items: center; }
+
+@media (max-width: 570px) {
+  .classPromociones {
+    display: flex;
+    width: 200px;
+    height: auto;
+    flex-direction: column;
+    align-items: center; } }

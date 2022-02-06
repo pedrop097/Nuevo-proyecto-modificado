@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+@import './Utilidades/index';
+
+ 
+
+.imagenw{
+    width: 50px;
+}
+
+.camion1{
+    width: 200px;
+}
+h2{
+    color: green;
+}
+.camion1:hover{
+    transform:translate(100px);
+    transition:all 1.5s ease;
+}
+.iframeContacto{
+     width: auto;
+     margin: 20px;
+}
+.Letra{
+    color: rgb(189, 11, 11);
+   
+    font-size: 20px;
+    }
+ 
+
+ .promociones2{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin: 50px;
+  }
+  .classPromociones{
+    font-size: 30px;
+    width: 600px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: solid whitesmoke;
+    align-items: center;
+  }
+
+  @media (max-width: 570px){
+    .classPromociones{
+      display: flex;
+      width: 200px;
+      height: auto;
+      flex-direction: column;
+      align-items:center;
+       }
+    }
+
+  

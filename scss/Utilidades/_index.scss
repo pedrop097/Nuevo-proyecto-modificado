@@ -1,0 +1,70 @@
+//header
+.container-fluid {
+  margin: 20px;
+  padding: 10px;
+
+  .color {
+    color: rgb(242, 242, 250);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+  }
+}
+//nav
+.nav {
+  margin: 20px;
+}
+//main
+.main {
+  .color2 {
+    background-color: rgb(216, 216, 216);
+
+    .ancho {
+      width: 500px;
+      margin: 0 auto;
+      .color3 {
+        background-color: black;
+      }
+    }
+  }
+}
+
+//section
+section {
+  h1 {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      background-color: red;
+
+      .ancho2 {
+        width: 200px;
+        margin: 0 auto;
+
+        .ancho3 {
+          width: 100px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+//div
+.margin1 {
+  margin: 50px;
+}
+
+//footer
+  h4 {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    &:hover{
+        transform: scale(1.5);
+        transition: 2s all;
+    }
+  }
+
+
