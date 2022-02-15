@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+main{
+    margin: 30px;
+h1{
+        
+   @extend %estilosParrafo;
+}
+    .promociones2{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        margin: 50px;
+        .classPromociones{
+            font-size: 30px;
+            width: 600px;
+            background-color: brown;
+            display: flex;
+            flex-direction: column;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            border: solid whitesmoke;
+            align-items: center;
+        }
+}
+}
+@media (max-width: 570px){
+    main{
+    .classPromociones{
+      font-size: 20px;
+    }
+}
+}

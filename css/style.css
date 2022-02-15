@@ -3,6 +3,25 @@
   padding: 0;
   box-sizing: border-box; }
 
+main h1 {
+  display: flex;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+  background-color: darkgray; }
+
+.inicio {
+  color: blue;
+  font-weight: bold; }
+
+.medio {
+  color: green;
+  font-weight: bold; }
+
+.fin {
+  color: red;
+  font-weight: bold; }
+
 .container-fluid {
   margin: 20px;
   padding: 10px; }
@@ -29,66 +48,130 @@ section h1 {
   justify-content: center; }
   section h1:hover {
     background-color: red; }
-    section h1:hover .ancho2 {
-      width: 200px;
-      margin: 0 auto; }
-      section h1:hover .ancho2 .ancho3 {
-        width: 100px;
-        margin: 0 auto; }
 
-.margin1 {
-  margin: 50px; }
+section .margin1 {
+  margin: 140px; }
+  section .margin1 .accordion-button {
+    background-color: #463e3e;
+    color: white; }
+  section .margin1 .ancho2 {
+    width: 250px;
+    margin: 0 auto; }
+  section .margin1 .ancho3 {
+    width: 130px;
+    margin: 0 auto; }
+  section .margin1 h5 {
+    width: auto;
+    display: flex;
+    justify-content: center; }
 
-h4 {
+footer .imagenw {
+  width: 50px; }
+
+footer h4 {
+  margin: 10px;
   display: flex;
-  margin: 30px;
   justify-content: center; }
-  h4:hover {
+  footer h4:hover {
     transform: scale(1.5);
     transition: 2s all; }
 
-.imagenw {
-  width: 50px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.camion1 {
-  width: 200px; }
+main {
+  margin: 10px;
+  padding: 10px; }
+  main .color4 {
+    background-color: #38994d; }
+    main .color4 .ancho4 {
+      width: 500px;
+      margin: 0% auto;
+      display: flex;
+      justify-content: center; }
 
-h2 {
+section {
+  margin: 100px 0px; }
+  section h3 {
+    margin: 40px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray; }
+  section .listado {
+    margin: 50px;
+    display: flex;
+    width: auto;
+    justify-content: space-around; }
+  section .color5 {
+    background-color: #b40228;
+    border-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+@media (max-width: 450px) {
+  .listado {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main h2 {
   color: green; }
 
-.camion1:hover {
-  transform: translate(100px);
-  transition: all 1.5s ease; }
+main .camion1 {
+  width: 200px; }
+  main .camion1:hover {
+    transform: translate(100px);
+    transition: all 1.5s ease; }
 
-.iframeContacto {
-  width: auto;
-  margin: 20px; }
+main .marginContacto {
+  margin: 80px; }
+  main .marginContacto .iframeContacto {
+    width: auto;
+    margin: 20px; }
 
-.Letra {
-  color: #bd0b0b;
-  font-size: 20px; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.promociones2 {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  align-items: center;
-  margin: 50px; }
-
-.classPromociones {
-  font-size: 30px;
-  width: 600px;
-  background-color: brown;
-  display: flex;
-  flex-direction: column;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: solid whitesmoke;
-  align-items: center; }
+main {
+  margin: 30px; }
+  main .promociones2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin: 50px; }
+    main .promociones2 .classPromociones {
+      font-size: 30px;
+      width: 600px;
+      background-color: brown;
+      display: flex;
+      flex-direction: column;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      border: solid whitesmoke;
+      align-items: center; }
 
 @media (max-width: 570px) {
-  .classPromociones {
-    display: flex;
-    width: 200px;
-    height: auto;
-    flex-direction: column;
-    align-items: center; } }
+  main .classPromociones {
+    font-size: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main .marginNosotros {
+  margin: 50px; }
+  main .marginNosotros .accordion-button {
+    background-color: #463e3e;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
