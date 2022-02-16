@@ -17,7 +17,7 @@ h1{
         margin: 50px;
         .classPromociones{
             font-size: 30px;
-            width: 600px;
+            width: 500px auto;
             background-color: brown;
             display: flex;
             flex-direction: column;
@@ -28,9 +28,8 @@ h1{
 }
 }
 @media (max-width: 570px){
-    main{
-    .classPromociones{
-      font-size: 20px;
+        .classPromociones{
+        font-size: 20px;
+        width: 200px;
     }
-}
 }

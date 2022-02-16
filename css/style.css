@@ -132,10 +132,7 @@ main .camion1 {
     transition: all 1.5s ease; }
 
 main .marginContacto {
-  margin: 80px; }
-  main .marginContacto .iframeContacto {
-    width: auto;
-    margin: 20px; }
+  margin: 70px; }
 
 * {
   margin: 0;
@@ -152,7 +149,7 @@ main {
     margin: 50px; }
     main .promociones2 .classPromociones {
       font-size: 30px;
-      width: 600px;
+      width: 500px auto;
       background-color: brown;
       display: flex;
       flex-direction: column;
@@ -161,8 +158,9 @@ main {
       align-items: center; }
 
 @media (max-width: 570px) {
-  main .classPromociones {
-    font-size: 20px; } }
+  .classPromociones {
+    font-size: 20px;
+    width: 200px; } }
 
 * {
   margin: 0;
