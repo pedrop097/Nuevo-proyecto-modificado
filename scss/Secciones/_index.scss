@@ -51,11 +51,9 @@ section {
         width: 250px;
         margin: 0 auto;
       }
-      .ancho3{
-        width: 130px;
-          margin: 0 auto;
+      
                      
-        }
+        
         h5{
           width: auto;
           display: flex;
@@ -83,6 +81,9 @@ footer{
  }
   }
 }
-
-
+@media (max-width: 420px){
+.accordion-button{
+width: auto;
+}
+}
 
