@@ -2,7 +2,10 @@
 %estilosParrafo{
     display: flex;
     width: auto;
-    margin: auto;
+    margin: 30px;
     justify-content: center;
      background-color:darkgray;
+     &:hover {
+        background-color: rgb(54, 153, 45);
+        }
 }

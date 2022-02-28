@@ -6,9 +6,11 @@
 main h1 {
   display: flex;
   width: auto;
-  margin: auto;
+  margin: 30px;
   justify-content: center;
   background-color: darkgray; }
+  main h1:hover {
+    background-color: #36992d; }
 
 .inicio {
   color: blue;
@@ -23,16 +25,20 @@ main h1 {
   font-weight: bold; }
 
 .container-fluid {
-  margin: 20px;
   padding: 10px; }
+  .container-fluid .letra {
+    font-weight: bold; }
   .container-fluid .color {
     color: #f2f2fa;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem 1rem; }
 
-.nav {
-  margin: 20px; }
+.main h1 {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, #8f8f91 0%, #ccccdb 39%, #dceaec 100%); }
 
 .main .color2 {
   background-color: #d8d8d8; }
@@ -42,12 +48,14 @@ main h1 {
     .main .color2 .ancho .color3 {
       background-color: black; }
 
-section h1 {
-  margin: 40px;
+section .tituloIndex {
+  margin: 50px;
+  width: auto;
   display: flex;
-  justify-content: center; }
-  section h1:hover {
-    background-color: red; }
+  justify-content: center;
+  font-weight: bold; }
+  section .tituloIndex:hover {
+    background-color: #c52929; }
 
 section .margin1 {
   margin: 140px; }
@@ -62,16 +70,24 @@ section .margin1 {
     display: flex;
     justify-content: center; }
 
-footer .imagenw {
+.divRedes .imagenw {
   width: 50px; }
 
-footer h4 {
-  margin: 10px;
+.divRedes h4 {
+  margin: 30px;
   display: flex;
   justify-content: center; }
-  footer h4:hover {
+  .divRedes h4:hover {
     transform: scale(1.5);
     transition: 2s all; }
+
+.footerIndex {
+  width: auto;
+  margin: 70px;
+  display: flex;
+  justify-content: flex-end; }
+  .footerIndex .datafiscal {
+    width: 70px; }
 
 @media (max-width: 420px) {
   .accordion-button {
@@ -86,12 +102,20 @@ main {
   margin: 10px;
   padding: 10px; }
   main .color4 {
-    background-color: #38994d; }
+    background-color: #af2d06; }
     main .color4 .ancho4 {
       width: 500px;
       margin: 0% auto;
       display: flex;
       justify-content: center; }
+
+.imagenlocal {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0; }
+  .imagenlocal .imagenlocal1 {
+    width: 320px; }
 
 section {
   margin: 100px 0px; }
@@ -109,7 +133,7 @@ section {
   section .color5 {
     background-color: #b40228;
     border-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
+    font-family: Georgia, "Times New Roman", Times, serif; }
 
 @media (max-width: 450px) {
   .listado {
@@ -142,26 +166,17 @@ main .marginContacto {
 
 main {
   margin: 30px; }
-  main .promociones2 {
-    display: flex;
-    flex-direction: column;
+  main .divpromociones {
     width: auto;
-    align-items: center;
-    margin: 50px; }
-    main .promociones2 .classPromociones {
-      font-size: 30px;
-      width: 500px auto;
-      background-color: brown;
-      display: flex;
-      flex-direction: column;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      border: solid whitesmoke;
-      align-items: center; }
+    display: flex;
+    justify-content: center; }
+    main .divpromociones .imagenespromociones {
+      margin: 20px;
+      width: 240px; }
 
-@media (max-width: 570px) {
-  .classPromociones {
-    font-size: 20px;
-    width: 200px; } }
+@media (max-width: 850px) {
+  .divpromociones {
+    flex-direction: column; } }
 
 * {
   margin: 0;
@@ -173,4 +188,15 @@ main .marginNosotros {
   main .marginNosotros .accordion-button {
     background-color: #463e3e;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
+    font-family: Georgia, "Times New Roman", Times, serif; }
+
+main .local1 {
+  width: auto;
+  display: flex;
+  justify-content: center; }
+  main .local1 .local {
+    width: 280px; }
+
+@media (max-width: 700px) {
+  .local1 {
+    flex-direction: column; } }

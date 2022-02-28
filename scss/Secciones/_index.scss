@@ -1,8 +1,10 @@
-//header
+
 .container-fluid {
-  margin: 20px;
   padding: 10px;
  
+  .letra {
+    font-weight: bold;
+  }
 
   .color {
     color: rgb(242, 242, 250);
@@ -11,12 +13,21 @@
     padding: 0.5rem 1rem;
   }
 }
-//nav
-.nav {
-  margin: 20px;
- }
-//main
+
+
 .main {
+  h1 {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgb(143, 143, 145) 0%,
+      rgb(204, 204, 219) 39%,
+      rgb(220, 234, 236) 100%
+    );
+  }
+
   .color2 {
     background-color: rgb(216, 216, 216);
 
@@ -30,60 +41,67 @@
   }
 }
 
-//section
+
 section {
- h1 {
-    margin: 40px;
+  .tituloIndex {
+    margin: 50px;
+    width: auto;
     display: flex;
     justify-content: center;
+    font-weight: bold;
     &:hover {
-      background-color: red;
+      background-color: rgb(197, 41, 41);
     }
   }
-    .margin1{
-     margin: 140px;
-         
-     .accordion-button{
-       background-color: rgb(70, 62, 62);
-       color: white;
-     }
-      .ancho2 {
-        width: 250px;
-        margin: 0 auto;
-      }
-      
-                     
-        
-        h5{
-          width: auto;
-          display: flex;
-          justify-content: center;
 
-        }
-      }
+  .margin1 {
+    margin: 140px;
+
+    .accordion-button {
+      background-color: rgb(70, 62, 62);
+      color: white;
+    }
+    .ancho2 {
+      width: 250px;
+      margin: 0 auto;
     }
 
+    h5 {
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
 
 
-//footer
-footer{
-  .imagenw{
+.divRedes {
+  .imagenw {
     width: 50px;
   }
   h4 {
-    margin: 10px;
+    margin: 30px;
     display: flex;
     justify-content: center;
     &:hover {
-        transform: scale(1.5);
-        transition: 2s all;
-
- }
+      transform: scale(1.5);
+      transition: 2s all;
+    }
   }
 }
-@media (max-width: 420px){
-.accordion-button{
-width: auto;
-}
-}
 
+.footerIndex {
+  width: auto;
+  margin: 70px;
+  display: flex;
+  justify-content: flex-end;
+
+  .datafiscal {
+    width: 70px;
+  }
+}
+@media (max-width: 420px) {
+  .accordion-button {
+    width: auto;
+  }
+}

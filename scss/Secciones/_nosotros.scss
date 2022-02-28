@@ -1,18 +1,30 @@
-*{
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    .marginNosotros{
-        margin: 50px;
-        .accordion-button{
-            background-color: rgb(70, 62, 62);
-            color: white;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-          }
-          
-             
-          
+main {
+  .marginNosotros {
+    margin: 50px;
+    .accordion-button {
+      background-color: rgb(70, 62, 62);
+      color: white;
+      font-family: Georgia, "Times New Roman", Times, serif;
     }
+  }
+
+  .local1 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+    .local {
+      width: 280px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .local1 {
+    flex-direction: column;
+  }
 }
